@@ -1,0 +1,212 @@
+* {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+nav {
+  display: flex;
+  position: fixed;
+}
+.container-fluid {
+  background-color: rgb(29, 27, 27);
+}
+.nav-link {
+  padding-right: 30px !important;
+  color: white;
+}
+.nav-link:hover {
+  background-color: gray;
+}
+
+.carousel-item {
+  height: 650px;
+}
+.header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  color: #0000008c;
+}
+.second-paragraph__band {
+  display: flex;
+  justify-content: center;
+}
+.card-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 150px;
+  overflow: hidden;
+}
+
+.card-title {
+  color: black;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+.header-tour {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.paragraph-tour {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.493);
+}
+table {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 270px;
+  color: black;
+}
+table,
+th,
+td {
+  border: rgba(0, 0, 0, 0.548) solid 1px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.sold-out {
+  background-color: rgba(255, 0, 0, 0.548);
+}
+.number-table {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.cards-container {
+  display: flex;
+  margin-left: 150px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+}
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+.card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+.card button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card button:hover {
+  background-color: #45a049;
+}
+.contact-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input {
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.submit-btn:hover {
+  background-color: gray;
+}
+.text-contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.form-group {
+  background-color: rgb(29, 27, 27);
+  color: white;
+}
+.img-end {
+  display: flex;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  text-align: center;
+  margin: 12px;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+.social-icons a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 10px;
+}
+.social-icons a:hover {
+  color: #0000004d;
+}
+.contact-icons {
+  display: flex;
+  justify-content: left;
+
+  flex-wrap: wrap;
+}
+.contact-icons i {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+}
